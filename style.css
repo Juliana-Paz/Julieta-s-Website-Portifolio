@@ -30,3 +30,43 @@ nav {
 nav a {
     margin-right: 30px;
 }
+
+main {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif, 'Courier New', Courier, monospace;
+}
+
+.prototipo1-conteiner,
+.prototipo1-conteiner {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+    margin-top: 10rem;
+}
+
+.slide-content {
+    margin: 0 10px;   
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070f4;
+}
