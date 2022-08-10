@@ -58,25 +58,32 @@ main {
 .slide-content{
     margin: 0 40px;
     overflow: hidden;
-    border-radius: 0 25px 0 25px;
+    border-radius: 25px 25px 0 0;
 }
 .card{
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: #FFF;
 }
-.image-content,
+
 .card-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
+    height: 50px;
 }
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .image-content{
     position: relative;
     row-gap: 5px;
     padding: 25px 0;
 }
 .overlay{
+    border-radius: 25px 25px 0 0;
     position: absolute;
     left: 0;
     top: 0;
@@ -98,17 +105,20 @@ main {
 }
 
 .description{
-    font-size: 14px;
-    color: #707070;
-    text-align: unset;
+    font-size: 15px;
+    color: #57565E;
+    font-family: 'Roboto';
+    font-weight: 400;
+    position: absolute; 
+    left: 28px;   
 }
 
 .swiper-navBtn{
-    color: #6E93f7;
+    color: rgba(111, 105, 148, 1);
     transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-    color: #4070F4;
+    color: rgb(78, 74, 104);
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
